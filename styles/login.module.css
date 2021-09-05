@@ -1,0 +1,69 @@
+.header {
+  width: 100vw;
+  height: 80px;
+  background: #205097;
+}
+.header h1 {
+  line-height: 80px;
+  color: white;
+  font-family: Work Sans, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  margin-left: 20px;
+}
+.form {
+  background: #f4f5ff;
+  border: 7px solid #eceeff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.form input {
+  background: #ffffff;
+  border: 3px solid rgba(10, 50, 152, 0.2);
+  box-sizing: border-box;
+  border-radius: 15px;
+  height: 47.8px;
+  margin-top: 20px;
+  padding: 0 10px;
+  outline: none;
+  font-size: 1.15em;
+}
+
+.form .login {
+  background: #0455cf;
+  border: 3px solid rgba(10, 50, 152, 0.2);
+  box-sizing: border-box;
+  border-radius: 15px;
+  height: 47.8px;
+  margin-top: 20px;
+  color: white;
+  font-size: 1.5em;
+}
+.form p {
+  font-family: PT Sans, sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #0066ff;
+  margin-bottom: 15px;
+}
+.form .create {
+  background: rgba(37, 188, 24, 0.74);
+  border: none;
+  border-radius: 15px;
+  height: 50px;
+  color: whitesmoke;
+  margin-top: 10px;
+  font-size: 1.5em;
+}

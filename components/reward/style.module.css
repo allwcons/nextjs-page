@@ -1,0 +1,71 @@
+.reward_button {
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  transform: translateY(-25px);
+  text-align: center;
+  font-size: 1.35em;
+  line-height: 50px;
+  margin-left: 30px;
+  margin-top: 4px;
+  background: #dbff00;
+  border: none;
+  border-radius: 60px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 342px) {
+  .reward_button {
+    font-size: 1em;
+  }
+  .paragraph {
+    font-size: 1em;
+  }
+}
+
+.reward_button:hover {
+  background: #c3d839;
+}
+.reward__logo img {
+  width: 50px;
+  height: 50px;
+}
+.paragraph {
+  color: white;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.8em;
+  letter-spacing: -0.02em;
+  transform: translateY(-25px);
+  margin-left: 20px;
+  display: inline-block;
+}
+.reward__brand {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+@supports (gap: 10px) {
+  .reward__brand {
+    gap: 10px;
+  }
+  .reward__tilte {
+    margin-left: 10px;
+  }
+}
+
+.reward__tilte {
+  margin-left: 0;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+}
+
+.reward__brand div {
+  display: inline-block;
+}

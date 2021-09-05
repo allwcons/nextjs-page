@@ -1,0 +1,48 @@
+.finalpage {
+  background-image: url('https://dl.dir.freefiremobile.com/common/web_event/hash/b88b8cb5e604e854adff3568bfc1b984jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-position: left 100% top 0%;
+}
+
+.final {
+  background: rgba(0, 0, 0, 0.68);
+  width: min(80%, 700px);
+  padding: 20px;
+  padding-top: 5px;
+  min-height: 300px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.7em;
+  line-height: 28px;
+
+  color: rgba(233, 168, 0, 0.79);
+  position: relative;
+}
+.final h2 {
+  margin-bottom: 0px;
+}
+.final h3 {
+  margin-top: 0px;
+}
+.final p {
+  color: white;
+  font-size: 1.3em;
+}
+.final::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  left: -15px;
+  top: -5px;
+  bottom: -5px;
+  border-radius: 20px;
+  width: 15px;
+  background: rgba(233, 168, 0, 0.9);
+}

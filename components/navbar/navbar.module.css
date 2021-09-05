@@ -1,0 +1,50 @@
+.Navbar {
+  height: var(--navbar-height);
+  position: absolute;
+  width: min(90vw, 1300px);
+  background-color: rgba(167, 79, 189, 0.721);
+  display: flex;
+  border-radius: 30px;
+  align-items: center;
+  font-size: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  padding: 0 10px;
+  color: aliceblue;
+}
+.navbar__menus {
+  margin-left: auto;
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+}
+.navbar_navitem a {
+  margin: 0 10px;
+  font-size: 1.35em;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar_navitem a {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .navbar_navitem a {
+    font-size: 1.5em;
+  }
+}
+
+.navbar__brand img {
+  border-radius: 100%;
+  width: 30px;
+}
+@supports (gap: 15px) {
+  .navbar_navitem {
+    margin: 0;
+  }
+  .navbar__menus {
+    gap: 15px;
+  }
+}
